@@ -11,6 +11,8 @@ If you find it useful, please let us know: Twitter @alexboly or through github.
 
 First, install [vagrant](https://www.vagrantup.com/). Then simply run `vagrant up`. 
 
+If for some reason you want to try again, run `clean` and try again.
+
 ## How It Works
 
 Vagrant configures a virtual machine running Ubuntu Bionic 64 bits, with 4 GB of RAM. It then runs the provisioning script, `provision.sh`. This script installs all the necessary tools and dependencies for cucumber-cpp, and proceeds with downloading and compiling the library. The compiled binary is then installed using the scripts offered by the library, and can also be retrieved from the cucumber-cpp/build folder.

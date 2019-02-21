@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+rm -rf ./cucumber-cpp
+rm -rf ./v0.5.tar.gz
+vagrant halt
+vagrant destroy
