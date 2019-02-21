@@ -1,3 +1,4 @@
 .vagrant
 *.log
 cucumber-cpp
+v0.5.tar.gz
